@@ -17,9 +17,9 @@ public class Main {
             return false;
         }
     }   public static boolean hasTeen(int firstAge, int secondAge, int thirdAge) {
-        if ((firstAge>13 && firstAge<19)||
-        (secondAge>13 && secondAge<19)||
-                (thirdAge>13 && thirdAge<19)){
+        if ((firstAge>=13 && firstAge<=19)||
+        (secondAge>=13 && secondAge<=19)||
+                (thirdAge>=13 && thirdAge<=19)){
             return true;
 
         }return false;
